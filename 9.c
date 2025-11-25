@@ -63,7 +63,7 @@ void add_grade(StudentManager* manager, int student_id, float grade) {
             
             // ИСПРАВЛЕНИЕ 5: Правильный расчет среднего балла
             // Было: student->average = (student->average + grade) / student->grades_count;
-            // Эта формула неверна 
+            // Эта формула невернf
             // Стало: пересчет полной суммы всех оценок
             float sum = 0.0f;
             for (int j = 0; j < student->grades_count; j++) {
