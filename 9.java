@@ -1,5 +1,4 @@
 package model;
-
 import exceptions.*;
 
 public class BankAccount {
@@ -63,12 +62,10 @@ public class BankAccount {
     public double getBalance() {
         return balance;
     }
-
     public String getAccountNumber() {
         return accountNumber;
     }
-
-    @Override
+    
     public String toString() {
         return "Счет: " + accountNumber + "\n" + 
             "Владелец: " + ownerName + "\n" + 
